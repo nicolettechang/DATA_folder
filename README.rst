@@ -1,8 +1,20 @@
-Template for the Read the Docs tutorial
+Replace data in DATA folder
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Use python environment on dtn:  
+
+```
+module purge
+export PATH=$PATH:/apps/user/erth0834/anaconda3-2021.05/bin
+conda activate data_dl
+```
+
+I have a login to earthdata, you will need this to create the _.netrc_ file and to dowload files.
+
+
+
+
+-----------------------
 
 Read the tutorial here:
 
